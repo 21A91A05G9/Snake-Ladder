@@ -1,0 +1,161 @@
+/* main.js styles */
+.main{
+  background-image: url('images/backpic.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+  text-align: center;
+}
+.image{
+  margin: 0px 50px;
+}
+.logo{
+  position: relative;
+  top:-3%;
+}
+.text .row{
+  width: 90%;
+  margin-left: 3%;
+}
+.text{
+  position: relative;
+  top:1%
+}
+.text .row h1 {
+  background-color:#ffff00;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size:x-large;
+  font-weight: bold;
+  cursor: none;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.61);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
+  font-family: 'Arial Bold', sans-serif;
+}
+.text .row .center button {
+  cursor: pointer;
+  background-color: #00981c;
+  border-radius: 10px;
+  border-color: black;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  color: wheat;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.61);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
+  font-size: larger;
+  font-weight: bold;
+  font-family: cursive;
+
+}
+.text .row .center button:hover {
+  background-color: #fbff00;
+  color: black;
+}
+
+
+/* grid.js styles */
+.gridboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  justify-content: center;
+  text-align: center;
+  background-image: url('images/board2.jpg');
+  background-size: cover;
+  border-radius: 10px;
+  padding:0px;
+  margin: 0px;
+}
+.board{
+  background-image: url('./images/backpic.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+@media (min-width:320px) and (max-width:400px){
+  .gridboard {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width:401px) and (max-width:767px){
+  .gridboard {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media  (min-width:768px) and  (max-width:1000px){
+  .gridboard {
+    height: 400px;
+    width: 400px;
+  }
+} 
+@media  (min-width:1024px) and  (max-width:1439px){
+  .gridboard {
+    height: 500px;
+    width: 500px;
+  }
+} 
+
+@media  (min-width:1440px) {
+  .gridboard {
+    height: 700px;
+    width: 700px;
+  }
+} 
+.dice img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  cursor: none;
+}
+.icon .row  button{
+  font: size 1px;
+  border: none;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+  background-color: rgb(255, 68, 0);
+  padding: 10px 12px;
+  width: 100%;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
+} 
+.dice button {
+  display: block;
+  height: 40px;
+  width: 80px;
+  background-color: #00981c;
+  color: #f5ffcf;
+  border: black;
+  font-size: 13px;
+  font-family: Cambria;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
+}
+button:hover {
+  background-color: #fbff00;
+  color: black;
+}
