@@ -11,6 +11,7 @@
 }
 
 .center{
+<<<<<<< HEAD
   /* align-items: center;
   text-align: center;
   text-align: center; */
@@ -19,6 +20,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+=======
+  align-items: center;
+  text-align: center;
+  text-align: center;
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
 }
 .image{
   margin: 0px 50px;
@@ -46,7 +52,11 @@
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
   font-family: 'Arial Bold', sans-serif;
 }
+<<<<<<< HEAD
 .text .row  button {
+=======
+.text .row .center button {
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
   cursor: pointer;
   background-color: #00981c;
   border-radius: 10px;
@@ -63,7 +73,11 @@
   font-family: cursive;
 
 }
+<<<<<<< HEAD
 .text .row  button:hover {
+=======
+.text .row .center button:hover {
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
   background-color: #fbff00;
   color: black;
 }
@@ -91,6 +105,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+<<<<<<< HEAD
   
 }
 /* .msg {
@@ -126,6 +141,43 @@
   text-align: center;
   color: #ffffff;
 }
+=======
+
+  
+}
+
+@media (min-width:320px) and (max-width:400px){
+  .gridboard {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width:401px) and (max-width:767px){
+  .gridboard {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media  (min-width:768px) and  (max-width:1000px){
+  .gridboard {
+    height: 400px;
+    width: 400px;
+  }
+} 
+@media  (min-width:1024px) and  (max-width:1439px){
+  .gridboard {
+    height: 500px;
+    width: 500px;
+  }
+} 
+
+@media  (min-width:1440px) {
+  .gridboard {
+    height: 700px;
+    width: 700px;
+  }
+} 
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
 .dice img {
   width: 80px;
   height: 80px;
@@ -133,6 +185,10 @@
   cursor: none;
 }
 .icon .row  button{
+<<<<<<< HEAD
+=======
+  font: size 1px;
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
   border: none;
   font-size: medium;
   color: white;
@@ -141,7 +197,11 @@
   border-radius: 5px;
   background-color: rgb(255, 68, 0);
   padding: 10px 12px;
+<<<<<<< HEAD
   width: fit-content;
+=======
+  width: 100%;
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
 } 
 .dice button {
@@ -151,7 +211,11 @@
   background-color: #00981c;
   color: #f5ffcf;
   border: black;
+<<<<<<< HEAD
   font-size: 15px;
+=======
+  font-size: 13px;
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
   font-family: Cambria;
   font-weight: bold;
   border-radius: 5px;
@@ -163,6 +227,7 @@ button:hover {
   background-color: #fbff00;
   color: black;
 }
+<<<<<<< HEAD
 
 
 @media (max-width:330px){
@@ -267,3 +332,5 @@ button:hover {
     width: 730px;
   }
 } 
+=======
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b

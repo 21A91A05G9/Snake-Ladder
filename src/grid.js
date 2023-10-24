@@ -16,9 +16,15 @@ export default function grid() {
     <div className='container-fluid board '>
            
             
+<<<<<<< HEAD
             <div className="row "> 
                 
                 <div className='col-md-7 col-sm-10 col-xl-7 col-lg-7 col-xs-10 center'> 
+=======
+            <div className="row center"> 
+                <div className='col-md-1 col-lg-1 col-xs-12 col-sm-12 col-xl-1 col-offset-md-1'></div>
+                <div className='col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12 '> 
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
                     <div class="gridboard">
                         <div class="grid" id="g100"></div>
                         <div class="grid" id="g99"></div>
@@ -122,6 +128,7 @@ export default function grid() {
                         <div class="grid" id="g10"></div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
                 <div className='col-md-5 col-sm-12 col-xl-5 col-lg-5 col-xs-12 center' >
                     <div className='row m-2 logo'>
@@ -150,6 +157,26 @@ export default function grid() {
                             <div class="row m-2"><button onclick={restart()}> RESTART</button></div>
                         </div>
                        
+=======
+
+                <div className='col-md-5 col-sm-12 col-xl-5 col-lg-5 col-xs-12' >
+                    <div className='row m-2'>
+                        
+                        <img className='col' src={Logo}/>
+                    </div>
+                    <div className='row diceboard center'>
+                        <div className='col'>&nbsp;</div>
+                        <div class="dice col">
+                            <img className='row m-2' id="dice-image" src={Dice} alt="dice image"/>
+                            <button className='row m-2' id="dice"  onclick={rollDice2()}> Roll</button>
+                        </div>
+
+                        <div class="icon col">
+                            <div class="row m-2"><button onclick={home()}> HOME</button></div>
+                            <div class="row m-2"><button onclick={restart()}> RESTART</button></div>
+                        </div>
+                        <div className='col'>&nbsp;</div>
+>>>>>>> be7283e082729206346ac2b347670354cc82c90b
                         </div>
                     </div>
                 </div> 
