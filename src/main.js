@@ -32,11 +32,7 @@ export default function Main() {
             </div> 
             <div className='row'>
               <div className='col-md-3 col-sm-4 col-xs-4 col-lg-3 col-offset-md-3'></div>
-<<<<<<< HEAD
-              <div class="col-md-6 col-sm-4 col-xs-4 col-lg-6  m-2">
-=======
               <div class="col-md-6 col-sm-4 col-xs-4 col-lg-6 center m-2">
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
                 <Link to='/player2'> <button class="button" onclick={p2()}>2</button> </Link>
                 <Link to='/player3'> <button class="button" onclick={p3()}>3</button> </Link>
                 <Link to='/player4'> <button class="button" onclick={p4()}>4</button> </Link>

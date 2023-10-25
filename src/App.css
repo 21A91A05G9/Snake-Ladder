@@ -9,22 +9,16 @@
   align-items: center;
   text-align: center;
 }
-
-.center{
-<<<<<<< HEAD
-  /* align-items: center;
-  text-align: center;
-  text-align: center; */
+.row{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-=======
+}
+.center{
   align-items: center;
   text-align: center;
   text-align: center;
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
 }
 .image{
   margin: 0px 50px;
@@ -52,11 +46,7 @@
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
   font-family: 'Arial Bold', sans-serif;
 }
-<<<<<<< HEAD
-.text .row  button {
-=======
 .text .row .center button {
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
   cursor: pointer;
   background-color: #00981c;
   border-radius: 10px;
@@ -73,11 +63,7 @@
   font-family: cursive;
 
 }
-<<<<<<< HEAD
-.text .row  button:hover {
-=======
 .text .row .center button:hover {
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
   background-color: #fbff00;
   color: black;
 }
@@ -105,79 +91,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-<<<<<<< HEAD
-  
-}
-/* .msg {
-                
-  width: 300px;
-  height: 90px;
-  font-size:x-small;
-  font-family: cursive;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
-  transform: perspective(500px) rotateX(10deg);
-}
-
-.msg h1 {
-  color: rgb(255, 2, 2);
-  text-align: center;
-} */
-
-.tog {
- 
-  font-size:large;
-  font-family: cursive;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  transform: perspective(500px) rotateX(10deg);
-}
-
-.tog span {
-  color: brown;
-}
-
-.tog h2 {
-  text-align: center;
-  color: #ffffff;
-}
-=======
 
   
 }
-
-@media (min-width:320px) and (max-width:400px){
-  .gridboard {
-    height: 300px;
-    width: 300px;
-  }
-}
-@media (min-width:401px) and (max-width:767px){
-  .gridboard {
-    height: 400px;
-    width: 400px;
-  }
-}
-@media  (min-width:768px) and  (max-width:1000px){
-  .gridboard {
-    height: 400px;
-    width: 400px;
-  }
-} 
-@media  (min-width:1024px) and  (max-width:1439px){
-  .gridboard {
-    height: 500px;
-    width: 500px;
-  }
-} 
-
-@media  (min-width:1440px) {
-  .gridboard {
-    height: 700px;
-    width: 700px;
-  }
-} 
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
 .dice img {
   width: 80px;
   height: 80px;
@@ -185,10 +101,7 @@
   cursor: none;
 }
 .icon .row  button{
-<<<<<<< HEAD
-=======
   font: size 1px;
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
   border: none;
   font-size: medium;
   color: white;
@@ -197,11 +110,7 @@
   border-radius: 5px;
   background-color: rgb(255, 68, 0);
   padding: 10px 12px;
-<<<<<<< HEAD
   width: fit-content;
-=======
-  width: 100%;
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.61);
 } 
 .dice button {
@@ -211,11 +120,7 @@
   background-color: #00981c;
   color: #f5ffcf;
   border: black;
-<<<<<<< HEAD
-  font-size: 15px;
-=======
   font-size: 13px;
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
   font-family: Cambria;
   font-weight: bold;
   border-radius: 5px;
@@ -227,110 +132,116 @@ button:hover {
   background-color: #fbff00;
   color: black;
 }
-<<<<<<< HEAD
 
-
-@media (max-width:330px){
-  .gridboard {
-    height: 295px;
-    width: 295px;
-  }
-  .board .row .logo{
-      position: relative;
-      top:-150%;
-      width: 80%;
-  }
-  .board .gridboard{
-    position: relative;
-    top:17%;
-  }
-  .dice img {
-    width: 60px;
-    height: 60px;
-  }
-  .dice button{
-    height: 30px;
-    width: 80px;
-  }
-  .icon .row  button{
-    padding: 5px 12px;
-    font-size: small;
-  }
-}
-@media (min-width:331px) and (max-width:400px){
+@media (min-width:0px) and (max-width:376px){
   .gridboard {
     height: 300px;
     width: 300px;
   }
   .board .row .logo{
-      position: relative;
-      top:-147%;
-      width: 75%;
-  }
-  .board .gridboard{
     position: relative;
-    top:20%;
+    top:-305px;
   }
-  .dice img {
-    width: 60px;
-    height: 60px;
+  .gridboard{
+    position: relative;
+    top:50px
   }
-  .dice button{
-    height: 30px;
-    width: 80px;
-  }
-  .icon .row  button{
-    padding: 5px 12px;
-    font-size: small;
-  }
+
 }
-@media (min-width:401px) and (max-width:767px){
+@media (min-width:376px) and (max-width:420px){
   .gridboard {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
   }
   .board .row .logo{
-      position: relative;
-      top:-150%;
-      width: 70%;
-  }
-  .board .gridboard{
     position: relative;
-    top:17%;
+    top:-400px;
+    width: 90%;
   }
-  .dice img {
-    width: 60px;
-    height: 60px;
-  }
-  .dice button{
-    height: 30px;
-    width: 80px;
-  }
-  .icon .row  button{
-    padding: 5px 12px;
-    font-size: small;
+  .gridboard{
+    position: relative;
+    top:10px
   }
 }
-@media  (min-width:768px) and  (max-width:1023px){
+/* @media (min-width:421px) and (max-width:450px){
+  .gridboard {
+    height: 380px;
+    width: 380px;
+  }
+  .board .row .logo{
+    position: relative;
+    top:-300px;
+    width: 80%;
+  }
+  .gridboard{
+    position: relative;
+    top:60px;
+  }
+} */
+@media (min-width:750px) and (max-width:990px){
+  .gridboard {
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top:100px
+  }
+  .board .row .logo{
+    position: relative;
+    top:-710px;
+    width: 80%;
+  }
+  .dice img {
+    width: 130px;
+    height: 130px;
+}
+.dice button {
+  display: block;
+  height: 60px;
+  width: 130px;
+  font-size: 25px;
+}
+.icon .row button{
+  font-size: larger;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
+}
+/* @media  (min-width:768px) and  (max-width:1000px){
   .gridboard {
     height: 400px;
     width: 400px;
-    margin-left: 10%;
   }
-} 
+}  */
 @media  (min-width:1024px) and  (max-width:1439px){
   .gridboard {
-    height: 530px;
-    width: 530px;
-    margin-left: 10%;
+    height: 510px;
+    width: 510px;
   }
+
 } 
 
 @media  (min-width:1440px) {
   .gridboard {
-    height: 730px;
-    width: 730px;
+    height: 710px;
+    width: 710px;
   }
+  .dice img {
+    width: 130px;
+    height: 130px;
+}
+.dice button {
+  display: block;
+  height: 60px;
+  width: 130px;
+  font-size: 25px;
+}
+.icon .row button{
+  font-size: larger;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
 } 
-=======
->>>>>>> be7283e082729206346ac2b347670354cc82c90b
