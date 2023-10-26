@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
 }
-.row{
+.r{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,7 +132,37 @@ button:hover {
   background-color: #fbff00;
   color: black;
 }
+/* .msg {
+    height: 150px;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    transform: perspective(500px) rotateX(10deg);
+}
 
+.msg h1 {
+    color: rgb(255, 2, 2);
+} */
+
+.tog {
+   
+    height: 90px;
+   
+    font-size:x-large;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: perspective(500px) rotateX(10deg);
+}
+
+.tog span {
+    color: blue;
+}
+
+.tog h2 {
+    color: #ffffff;
+}
 @media (min-width:0px) and (max-width:376px){
   .gridboard {
     height: 300px;
@@ -140,7 +170,7 @@ button:hover {
   }
   .board .row .logo{
     position: relative;
-    top:-305px;
+    top:-307px;
   }
   .gridboard{
     position: relative;
@@ -148,14 +178,14 @@ button:hover {
   }
 
 }
-@media (min-width:376px) and (max-width:420px){
+@media (min-width:376px) and (max-width:500px){
   .gridboard {
     height: 350px;
     width: 350px;
   }
   .board .row .logo{
     position: relative;
-    top:-400px;
+    top:-410px;
     width: 90%;
   }
   .gridboard{
@@ -163,58 +193,30 @@ button:hover {
     top:10px
   }
 }
-/* @media (min-width:421px) and (max-width:450px){
+@media (min-width:501px) and (max-width:767px){
   .gridboard {
-    height: 380px;
-    width: 380px;
+    height: 450px;
+    width: 450px;
   }
   .board .row .logo{
     position: relative;
-    top:-300px;
+    top:-500px;
     width: 80%;
   }
   .gridboard{
     position: relative;
-    top:60px;
+    top:50px;
   }
-} */
-@media (min-width:750px) and (max-width:990px){
-  .gridboard {
-    height: 700px;
-    width: 700px;
-    position: relative;
-    top:100px
-  }
-  .board .row .logo{
-    position: relative;
-    top:-710px;
-    width: 80%;
-  }
-  .dice img {
-    width: 130px;
-    height: 130px;
-}
-.dice button {
-  display: block;
-  height: 60px;
-  width: 130px;
-  font-size: 25px;
-}
-.icon .row button{
-  font-size: larger;
-  width: fit-content;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 10px;
-}
-}
-/* @media  (min-width:768px) and  (max-width:1000px){
+} 
+
+@media (min-width:768px) and (max-width:990px){
   .gridboard {
     height: 400px;
     width: 400px;
+   
   }
-}  */
-@media  (min-width:1024px) and  (max-width:1439px){
+}
+@media  (min-width:991px) and  (max-width:1439px){
   .gridboard {
     height: 510px;
     width: 510px;

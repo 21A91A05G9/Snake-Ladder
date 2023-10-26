@@ -16,9 +16,9 @@ export default function grid() {
     <div className='container-fluid board '>
            
             
-            <div className="row center"> 
-                <div className='col-md-12 col-sm-12 col-xl-6 col-lg-7 col-xs-12' > 
-                    <div className='row'>
+            <div className="row r center"> 
+                <div className='col-md-7 col-sm-12 col-xl-6 col-lg-7 col-xs-12' > 
+                    <div className='row r'>
                     <div class="gridboard " >
                         <div class="grid" id="g100"></div>
                         <div class="grid" id="g99"></div>
@@ -124,21 +124,27 @@ export default function grid() {
                     </div>
                 </div>
 
-                <div className='col-md-12 col-sm-12 col-xl-5 col-lg-5 col-xs-12' >
-                    <div className='row m-2'>
+                <div className='col-md-5 col-sm-12 col-xl-5 col-lg-5 col-xs-12' >
+                    <div className='row r m-2'>
                         
                         <img className='logo' src={Logo}/>
                     </div>
-                    <div className='row diceboard center'>
-                        <div className='col'>&nbsp;</div>
+                    {/* <div class="msg">
+                        <h1 id="msg"></h1>
+                    </div>
+                    <div class="tog">
+                        <h2 id="tog"> Now it's <span id="col" > Blue's </span> Turn</h2>
+                    </div> */}
+                    <div className='row r diceboard center'>
+                    <div className='col'>&nbsp;</div>
                         <div class="dice col">
-                            <img className='row m-2' id="dice-image" src={Dice} alt="dice image"/>
-                            <button className='row m-2' id="dice"  onclick={rollDice2()}> Roll</button>
+                            <img className='row r m-2' id="dice-image" src={Dice} alt="dice image"/>
+                            <button className='row r m-2' id="dice"  onclick={rollDice2()}> Roll</button>
                         </div>
 
                         <div class="icon col">
-                            <div class="row m-2"><button onclick={home()}> HOME</button></div>
-                            <div class="row m-2"><button onclick={restart()}> RESTART</button></div>
+                            <div class="row r m-2"><button onclick={home()}> HOME</button></div>
+                            <div class="row r m-2"><button onclick={restart()}> RESTART</button></div>
                         </div>
                         <div className='col'>&nbsp;</div>
                         </div>
