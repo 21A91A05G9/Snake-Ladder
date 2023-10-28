@@ -5,7 +5,6 @@ import Player2 from './player2'
 import Player3 from './player3'
 import Player4 from './player4'
 import Player5 from './player5'
-import Grid from './grid'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 export default function App() {
   return (

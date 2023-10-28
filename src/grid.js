@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './images/logo.png'
 import Dice from './images/d1.png'
 export default function grid() {
-    const rollDice2 = () =>{
+    const rollDice = () =>{
         
     }
     const home = () =>{
@@ -139,7 +139,7 @@ export default function grid() {
                     <div className='col'>&nbsp;</div>
                         <div class="dice col">
                             <img className='row r m-2' id="dice-image" src={Dice} alt="dice image"/>
-                            <button className='row r m-2' id="dice"  onclick={rollDice2()}> Roll</button>
+                            <button className='row r m-2' id="dice"  onclick={rollDice()}> Roll</button>
                         </div>
 
                         <div class="icon col">

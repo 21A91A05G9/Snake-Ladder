@@ -33,10 +33,10 @@ export default function Main() {
             <div className='row'>
               <div className='col-md-3 col-sm-4 col-xs-4 col-lg-3 col-offset-md-3'></div>
               <div class="col-md-6 col-sm-4 col-xs-4 col-lg-6 center m-2">
-                <Link to='/player2'> <button class="button" onclick={p2()}>2</button> </Link>
-                <Link to='/player3'> <button class="button" onclick={p3()}>3</button> </Link>
-                <Link to='/player4'> <button class="button" onclick={p4()}>4</button> </Link>
-                <Link to='/player5'> <button class="button" onclick={p5()}>5</button> </Link>
+                <Link to='/player2'> <button class="button" onClick={p2()}>2</button> </Link>
+                <Link to='/player3'> <button class="button" onClick={p3()}>3</button> </Link>
+                <Link to='/player4'> <button class="button" onClick={p4()}>4</button> </Link>
+                <Link to='/player5'> <button class="button" onClick={p5()}>5</button> </Link>
               </div>
             </div> 
            
