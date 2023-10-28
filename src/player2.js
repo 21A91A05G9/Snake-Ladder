@@ -9,7 +9,6 @@ import d5 from './images/d5.png'
 import d6 from './images/d6.png'
 import blue from './images/blue.png'
 import red from './images/red.png'
-import grid from './grid'
 export default function Player2() {
   function snakeladder(sum, c) {
     const snakePositions = {
@@ -87,8 +86,7 @@ export default function Player2() {
         let element=document.getElementById(grid_id)
         element.innerHTML=`<img src=${blue} height="30vw" width="30vw"/>`
         if(finalresult==100){
-          alert("Hurray...!  Player 1 won the Game")
-          
+          setTimeout(()=>alert("Hurray...!  blue won the Game"), 1000);
         }
       }
     }
@@ -108,7 +106,8 @@ export default function Player2() {
       let element=document.getElementById(grid_id)
       element.innerHTML=`<img src=${red} height="30vw" width="30vw"/>`
       if(finalresult==100){
-        alert("Hurray...!  Player 2 won the Game")
+        setTimeout(()=>alert("Hurray...!  red won the Game"), 1000);
+
         
       }
       }

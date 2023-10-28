@@ -18,7 +18,6 @@
 .center{
   align-items: center;
   text-align: center;
-  text-align: center;
 }
 .image{
   margin: 0px 50px;
@@ -70,6 +69,11 @@
 
 
 /* grid.js styles */
+.grid{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .gridboard {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
