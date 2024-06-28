@@ -9,11 +9,15 @@
   align-items: center;
   text-align: center;
 }
+.userName {
+  color: #fbff00;
+}
 .r{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 .center{
   align-items: center;
@@ -71,8 +75,11 @@
 /* grid.js styles */
 .grid{
   display: flex;
-  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  position: relative;
+  box-sizing: border-box;
 }
 .gridboard {
   display: grid;
@@ -149,7 +156,11 @@ button:hover {
     color: rgb(255, 2, 2);
     font-size: 30px !important;
 }
-
+.winner{
+   font-weight: bold;
+   text-align: left;
+   margin-left: 20% ;
+}
 .tog {
    
     height: 90px;
@@ -168,6 +179,104 @@ button:hover {
 .tog h2 {
     color: #ffffff;
 }
+
+.card{
+  border-radius: 10px;
+  background-image: linear-gradient(135deg,rgb(255, 255, 255,0.1),rgb(255, 255,255,0.05));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  background-color:transparent;
+  padding: 30px;
+  box-shadow: 2px 2px 5px white,inset 2px 2px 5px white;
+}
+input{
+  border: none;
+  border-radius: 5px;
+  padding:5px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color:transparent !important;
+  outline: none;
+  padding-bottom: 5px;
+  color: white;
+}
+::placeholder{
+  color: rgb(229, 233, 244);
+  font-size: small;
+}
+.header{
+  text-align: center;
+  font-weight: bolder;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  
+}
+.btn, .google{
+  padding:2px 5px;
+  /* background-image: linear-gradient(45deg,rgb(151, 45, 200),rgb(37, 153, 185)); */
+  background-color: rgb(227, 135, 22);
+  color: white !important;
+}
+.btn:hover, .google:hover{
+  background-color: rgb(227, 128, 22);
+  transform: scale(1.05);
+}
+.login{
+  position: relative;
+ 
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+a{
+  color:  #fbff00;
+  text-decoration:none;
+  
+  font-weight: bold;
+
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+ 
+}
+.leader{
+  color: rgb(79, 49, 0);
+  font-weight: bold;
+}
+.modal-body{
+  margin: 30px;
+  border-radius: 2px;
+  /* background-color: rgb(229, 138, 35); */
+
+}
+.modal-content {
+  background-image: url('./images/winningbg.png');
+  background-size: cover;
+  color: white;
+  background-color:transparent;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.modal-footer {
+  display: flex;
+  justify-content: center; /* Center align the button horizontally */
+  padding: 10px;
+}
 @media (min-width:0px) and (max-width:376px){
   .gridboard {
     height: 300px;
@@ -180,6 +289,9 @@ button:hover {
   .gridboard{
     position: relative;
     top:50px
+  }
+  .modal-content{
+    width: 90% !important;
   }
 
 }
@@ -197,6 +309,9 @@ button:hover {
     position: relative;
     top:10px
   }
+  .modal-content{
+    width: 85% !important;
+  }
 }
 @media (min-width:501px) and (max-width:767px){
   .gridboard {
@@ -212,6 +327,9 @@ button:hover {
     position: relative;
     top:50px;
   }
+  .modal-content{
+    width: 50% !important;
+  }
 } 
 
 @media (min-width:768px) and (max-width:990px){
@@ -220,11 +338,17 @@ button:hover {
     width: 400px;
    
   }
+  .modal-content{
+    width: 50% !important;
+  }
 }
 @media  (min-width:991px) and  (max-width:1439px){
   .gridboard {
     height: 510px;
     width: 510px;
+  }
+  .modal-content{
+    width: 30% !important;
   }
 
 } 
@@ -250,5 +374,8 @@ button:hover {
   padding-left: 20px;
   padding-right: 20px;
   margin: 10px;
+}
+.modal-content{
+  width: 30% !important;
 }
 } 

@@ -1,10 +1,9 @@
 import React from 'react'
 import Main from './main'
 import './App.css'
-import Player2 from './player2'
-import Player3 from './player3'
-import Player4 from './player4'
-import Player5 from './player5'
+import Player from './player'
+import Login from './login'
+import Register from './register'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 export default function App() {
   return (
@@ -12,11 +11,11 @@ export default function App() {
       <BrowserRouter>
 
         <Routes>
-          <Route path='/' element={<Main/>}/>
-          <Route path='/player2' element={<Player2/>}/>
-          <Route path='/player3' element={<Player3/>}/>
-          <Route path='/player4' element={<Player4/>}/>
-          <Route path='/player5' element={<Player5/>}/>
+          <Route path='/' element={<Login/>}/>
+          <Route path='/player/:count' element={<Player/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/main' element={<Main/>}/>
         </Routes>
       </BrowserRouter>
        
